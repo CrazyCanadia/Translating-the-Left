@@ -1,0 +1,38 @@
+#bg {
+    height: 100%;
+    width: 400px;
+    background-color: rgb(85, 88, 88);
+  }
+
+h1, #mainHeader {
+    text-align: center;
+    color: white;
+}
+
+option {
+  color: black;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+.my-modal{
+  z-index: 3;
+}
+
+.notify_text {
+  display: none;
+}
+
+.overlay {
+  position:absolute;
+  top:0;left:0;right:0;bottom:1;
+  border-radius: 3%;
+}
+
+.notice{
+  color: black;
+  text-align: center;
+}

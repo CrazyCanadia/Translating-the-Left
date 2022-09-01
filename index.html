@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translating the Left</title>
+    <link rel="icon" type="image" href="img/Favicon.png">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="helperFunctions.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-secondary">
+        
+                <!-- Modal Header -->
+                <div class="modal-header text-light">
+                <h4 class="modal-title">Instructions</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body text-white-50">
+                    <b>Translating the Left</b> <br>This simple (beginner) extension is a <b>JOKE</b>. It has been created after a silly suggestion to translate the hyperbolic language seen online. This extension allows a user to add a list of words which will automatically be changed to ("Bad Thing"), after a page fully loads. It is a free and open-source extension for anyone to use or adapt. Have fun, laugh more, and love others.<br><br>Feel free to check out @CrazyCanadia online.
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer text-light">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid border border-3" id="bg">
+        <h1 id="siteHeading" data-bs-toggle="modal" data-bs-target="#myModal" class="my-2">Translating the Left</h1>
+        <!-- <h1 title="Instructions:" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Good Luck." id="siteHeading">Static Site Cleaner</h1> -->
+        <!-- <button type="button" class="btn btn-secondary" id="siteHeading" data-bs-toggle="modal" data-bs-target="#myModal">Static Site Cleaner</button> -->
+        <div id="mainHeader" class="my-2"></div>
+        <div id="comms" class="card justify-content-center overlay"></div>
+
+        <button id="import" type="button" class="btn btn-dark btn-xs mx-2">Import</button>
+        <button id="export" type="button" class="btn btn-dark btn-xs mx-2">Export</button>
+        <button id="wipe" type="button" class="btn btn-danger btn-xs mx-4">Delete List</button>
+        <hr>
+        <div>
+            <form class="d-grid">
+                <label for="display" class="form-label">These are the current words to translate:</label>
+                <select multiple class="form-select" id="display"></select>
+                <button id="removeTerm" type="button" class="btn btn-danger btn-block">Remove</button>
+            </form>
+        </div>
+        <hr>
+        <div class="d-grid">
+            <form>              
+                <label for="newTerm">Word to add: </label>
+                <input class="input-group" type="text" id="newTerm">
+            </form><br>
+            <button id="addTerm" type="button" class="btn btn-primary btn-block">Add</button>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

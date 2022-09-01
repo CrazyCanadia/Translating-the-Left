@@ -15,12 +15,10 @@ Feel free to check out @CrazyCanadia online.
 Download the files in this repo. Save them on your computer. 
 
 1. Go to your Extension manager and choose "Load Unpacked" extensions.
-<img src="/Extensions.png" alt="Load the extension from the 'Load Unpacked' option in the extension manager.">
 
 2. Navigate to your saved files and select the "Bad Thing Extension" folder.
 
 3. Once this is loaded, Pin the extension to have easy access and helpful information.
-<img src="/Pin.png" alt="If you pin the extension it will be best.">
 
 4.Import the small list provided named "import me.json" **OR** start adding your own phrases.
 

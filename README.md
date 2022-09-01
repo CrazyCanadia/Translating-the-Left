@@ -19,7 +19,7 @@ Download the files in this repo. Save them on your computer.
 
 1. Go to your Extension manager and choose "Load Unpacked" extensions.
 
-2. Navigate to your saved files and select the "Bad Thing Extension" folder.
+2. Navigate to your saved files and select the "Translating-the-Left-master" folder.
 
 3. Once this is loaded, Pin the extension to have easy access and helpful information.
 

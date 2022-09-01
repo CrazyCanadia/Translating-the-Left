@@ -1,9 +1,12 @@
 # Translating-the-Left
 
 This simple (beginner) extension is a **JOKE**.
-It has been created after a silly suggestion to translate the hyperbolic language seen online. 
+It has been created after a silly suggestion to translate the hyperbolic language seen online.
+
 This extension allows a user to add a list of words which will automatically be changed to **("Bad Thing")**, after a page fully loads. 
-It is a free and open-source extension for anyone to use or adapt. Have fun, laugh more, and love others.
+It is a free and open-source extension for anyone to use or adapt. 
+Have fun, laugh more, and love others.
+
 Feel free to check out @CrazyCanadia online.
 
 **This is a simple extension for JOKE purposes only.**

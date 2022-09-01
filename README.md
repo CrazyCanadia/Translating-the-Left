@@ -20,7 +20,7 @@ Download the files in this repo. Save them on your computer.
 
 3. Once this is loaded, Pin the extension to have easy access and helpful information.
 
-4.Import the small list provided named "import me.json" **OR** start adding your own phrases.
+4. Import the small list provided named "import me.json" **OR** start adding your own phrases.
 
 5. Add and remove phrases you would like. These phrases are displayed in the extension window and you are notified of how many phrases have been replaced on the last loaded website.
 

@@ -17,7 +17,7 @@ Feel free to check out @CrazyCanadia online.
 
 Download the files in this repo. Save them on your computer. 
 
-1. Go to your Extension manager and choose "Load Unpacked" extensions.
+1. Go to your Extension manager, ensure that "developer mode" is switched on in the top right, and choose "Load Unpacked" extensions in the top left.
 
 2. Navigate to your saved files and select the "Translating-the-Left-master" folder.
 
